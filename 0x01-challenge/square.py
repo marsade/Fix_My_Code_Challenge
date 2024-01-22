@@ -4,13 +4,7 @@
 class Square:
     """
     A class representing a square
-
-    Attributes:
-        width: width of square
-        height: height of square
     """
-    width = 0
-    height = 0
 
     def __init__(self, width=0, height=0):
         """
