@@ -4,15 +4,13 @@ class Square():
     """
     A class representing a square
     """
-    
     width = 0
     height = 0
 
-    
     def __init__(self, **kwargs):
-        """Initializes a square ith a given 
+        """
+        Initializes a square with a given
         width and height
-        
         """
         for key, value in kwargs.items():
             setattr(self, key, value)
@@ -20,14 +18,14 @@ class Square():
     def area_of_my_square(self):
         """
         Calculates the area of a square
-        
+
         Returns:
             the area of the square"""
         return self.width * self.height
 
     def perimeter_of_my_square(self):
         """Calculates the perimeter of a square
-        
+
         Returns:
             the permieter of the square
         """
@@ -38,6 +36,7 @@ class Square():
         Returns a string representation of the square
         """
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
